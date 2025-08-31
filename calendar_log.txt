@@ -1,0 +1,28 @@
+2025-08-31 12:16:35.344119 | Scheduled: With Tulsi at 2025-08-31 19:00:00 | Participants: ['Tulsi'] | Recurrence: None
+2025-08-31 12:16:35.500400 | Scheduled: With Tulsi at 2025-08-31 19:00:00 | Participants: ['Tulsi'] | Recurrence: None
+2025-08-31 17:38:06.522511 | Scheduled: With Deepak At at 2025-08-31 18:00:00 | Participants: ['Deepak'] | Recurrence: None
+2025-08-31 17:38:06.538138 | Scheduled: With Deepak At at 2025-08-31 18:00:00 | Participants: ['Deepak'] | Recurrence: None
+2025-08-31 17:38:41.304397 | Scheduled: With Deepak At at 2025-08-31 18:00:00 | Participants: ['ai.deepakkarma@gmail.com'] | Recurrence: None
+2025-08-31 17:38:41.320024 | Scheduled: With Deepak At at 2025-08-31 18:00:00 | Participants: ['ai.deepakkarma@gmail.com'] | Recurrence: None
+2025-08-31 17:42:14.879375 | Scheduled: With Deepak at 2025-08-31 18:00:00 | Participants: ['ai.deepakkarma@gmail.com'] | Recurrence: None
+2025-08-31 17:42:14.910652 | Scheduled: With Deepak at 2025-08-31 18:00:00 | Participants: ['ai.deepakkarma@gmail.com'] | Recurrence: None
+2025-08-31 17:46:33.139872 | Scheduled: With Deepak at 2025-08-31 18:00:00 | Participants: ['ai.deepakkarma@gmail.com'] | Recurrence: None
+2025-08-31 17:46:33.139872 | Scheduled: With Deepak at 2025-08-31 18:00:00 | Participants: ['ai.deepakkarma@gmail.com'] | Recurrence: None
+2025-08-31 17:48:24.855649 | Scheduled: With Kaushal at 2025-08-31 18:40:00 | Participants: ['kaushalkarma@gmail.com'] | Recurrence: None
+2025-08-31 17:48:24.878818 | Scheduled: With Kaushal at 2025-08-31 18:40:00 | Participants: ['kaushalkarma@gmail.com'] | Recurrence: None
+2025-08-31 17:48:54.865532 | Scheduled: With Deepak;kaushal at 2025-08-31 19:40:00 | Participants: None | Recurrence: None
+2025-08-31 17:48:54.877582 | Scheduled: With Deepak;kaushal at 2025-08-31 19:40:00 | Participants: None | Recurrence: None
+2025-08-31 17:49:11.669452 | Scheduled: With Deepak,kaushal at 2025-08-31 19:40:00 | Participants: ['ai.deepakkarma@gmail.com', 'kaushalkarma@gmail.com'] | Recurrence: None
+2025-08-31 17:49:11.685562 | Scheduled: With Deepak,kaushal at 2025-08-31 19:40:00 | Participants: ['ai.deepakkarma@gmail.com', 'kaushalkarma@gmail.com'] | Recurrence: None
+2025-08-31 17:50:59.079347 | Scheduled: With Deepak,kaushal at 2025-08-31 20:40:00 | Participants: ['ai.deepakkarma@gmail.com', 'kaushalkarma@gmail.com'] | Recurrence: None
+2025-08-31 17:50:59.079347 | Scheduled: With Deepak,kaushal at 2025-08-31 20:40:00 | Participants: ['ai.deepakkarma@gmail.com', 'kaushalkarma@gmail.com'] | Recurrence: None
+2025-08-31 17:52:14.850156 | Scheduled: With Deepak,kaushal at 2025-08-31 18:00:00 | Participants: ['ai.deepakkarma@gmail.com', 'kaushalkarma@outlook.com'] | Recurrence: None
+2025-08-31 17:52:14.992206 | Scheduled: With Deepak,kaushal at 2025-08-31 18:00:00 | Participants: ['ai.deepakkarma@gmail.com', 'kaushalkarma@outlook.com'] | Recurrence: None
+2025-08-31 17:53:00.955774 | Scheduled: With Kaushal,kaushal at 2025-08-31 19:00:00 | Participants: ['kaushalkarma@outlook.com', 'kaushalkarma@outlook.com'] | Recurrence: None
+2025-08-31 17:53:01.024870 | Scheduled: With Kaushal,kaushal at 2025-08-31 19:00:00 | Participants: ['kaushalkarma@outlook.com', 'kaushalkarma@outlook.com'] | Recurrence: None
+2025-08-31 17:54:46.534946 | Scheduled: With Deepak,kaushal at 2025-08-31 20:40:00 | Participants: ['ai.deepakkarma@gmail.com', 'kaushalkarma@outlook.com'] | Recurrence: None
+2025-08-31 17:54:46.554992 | Scheduled: With Deepak,kaushal at 2025-08-31 20:40:00 | Participants: ['ai.deepakkarma@gmail.com', 'kaushalkarma@outlook.com'] | Recurrence: None
+2025-08-31 20:42:03.772196 | Scheduled: A With Raj at 2025-09-01 10:00:00 | Participants: ['Raj'] | Recurrence: None
+2025-08-31 20:42:03.818793 | Scheduled: A With Raj at 2025-09-01 10:00:00 | Participants: ['Raj'] | Recurrence: None
+2025-08-31 20:42:40.858458 | Scheduled: A With Raj at 2025-09-01 10:00:00 | Participants: ['Raj'] | Recurrence: None
+2025-08-31 20:42:40.870460 | Scheduled: A With Raj at 2025-09-01 10:00:00 | Participants: ['Raj'] | Recurrence: None

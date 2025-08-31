@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "9ba987e2-04ac-4af5-9dd1-f74498a9209e",
+		"name": "n8n",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4156027",
+		"_collection_link": "https://cloudy-satellite-505955.postman.co/workspace/NBS~045ce189-898e-4a33-8325-3a091bf03ed4/collection/4156027-9ba987e2-04ac-4af5-9dd1-f74498a9209e?action=share&source=collection_link&creator=4156027"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:2703/calendar-command",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"Schedule a meeting with Raj tomorrow at 10am\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:2703/calendar-command",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "2703",
+					"path": [
+						"calendar-command"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:2701/ask",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"what is the capital of india?\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:2701/ask",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "2701",
+					"path": [
+						"ask"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:2702/add-task",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"Remind me to drink water every 30 minutes\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:2702/add-task",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "2702",
+					"path": [
+						"add-task"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5678/webhook-test/agent-router",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"generate image where cat sitting on dog.\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5678/webhook-test/agent-router",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5678",
+					"path": [
+						"webhook-test",
+						"agent-router"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
