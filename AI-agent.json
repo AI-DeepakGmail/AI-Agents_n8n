@@ -1,0 +1,376 @@
+{
+  "name": "AI-agent",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "/agent-router",
+        "responseMode": "lastNode",
+        "options": {
+          "rawBody": true
+        }
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -608,
+        64
+      ],
+      "id": "a942aafd-5d05-461c-9572-d54932680c9c",
+      "name": "Webhook",
+      "webhookId": "b4b8c644-5319-47b7-8610-62588a160b64"
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $input.first().json.body;\nconst text = input.text?.toLowerCase().trim() || \"\";\nconst context = input.context || null;\n\n// ✅ Respect explicit agent\nif (input.agent) {\n  return [{\n    json: {\n      agent: input.agent,\n      text,\n      context,\n      user_id: input.user_id\n    }\n  }];\n}\n\n// 🔄 Fallback to keyword-based routing\nif (text.includes(\"schedule\") || text.includes(\"meeting\") || text.includes(\"calendar\")) {\n  return [{\n    json: {\n      agent: \"calendar\",\n      text,\n      user_id: input.user_id\n    }\n  }];\n} else if (text.includes(\"remind me\") || text.includes(\"task\") || text.includes(\"every\")) {\n  return [{\n    json: {\n      agent: \"task\",\n      text,\n      user_id: input.user_id\n    }\n  }];\n} else {\n  return [{\n    json: {\n      agent: \"query\",\n      text,\n      user_id: input.user_id\n    }\n  }];\n}\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -416,
+        112
+      ],
+      "id": "46ea6726-474a-424f-94c8-d6ae018a9e00",
+      "name": "Code",
+      "alwaysOutputData": false
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.agent }}",
+                    "rightValue": "calendar",
+                    "operator": {
+                      "type": "string",
+                      "operation": "contains"
+                    },
+                    "id": "51a37aa1-177c-4839-a4d4-326d7ede14ab"
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "dd7d99c8-53ea-48d0-84a4-cdd7e9e7476c",
+                    "leftValue": "={{ $json.agent }}",
+                    "rightValue": "task",
+                    "operator": {
+                      "type": "string",
+                      "operation": "contains"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "859b94e9-d982-47ad-89b4-e8279c3e78eb",
+                    "leftValue": "={{ $json.agent }}",
+                    "rightValue": "query",
+                    "operator": {
+                      "type": "string",
+                      "operation": "contains"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [
+        -208,
+        112
+      ],
+      "id": "3b21b76d-10aa-4e24-aaae-fb49ac965975",
+      "name": "Switch"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:2703/calendar-command",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"text\": \"{{$json.text}}\"\n}\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        224,
+        -16
+      ],
+      "id": "e673ef08-4182-4668-8aba-ece2f4db82cc",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=http://127.0.0.1:2702/parse-task",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"text\": \"{{ $json.text }}\",\n  \"user_id\": \"{{ $json.user_id }}\",\n  \"context\": {{ JSON.stringify($json.context || {}) }}\n}\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        64,
+        144
+      ],
+      "id": "eb683e09-c061-4689-b42f-17134612ac66",
+      "name": "HTTP Request1"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:2701/ask",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"question\": \"{{$json.text}}\"\n}\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        208,
+        336
+      ],
+      "id": "6d7a6ad2-6dc6-42d8-976c-968e79a7119a",
+      "name": "HTTP Request2"
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{$json.status}}",
+                    "rightValue": "incomplete",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    },
+                    "id": "edbcf115-746e-4f1a-96cc-dfc25b59f5d6"
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "cc342b8d-5a62-495d-9a73-964e89a54e49",
+                    "leftValue": "={{$json.status}}",
+                    "rightValue": "added",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals",
+                      "name": "filter.operator.equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "530f8d7e-3c6f-47d3-a06c-afc68b48fa92",
+                    "leftValue": "={{$json.status}}",
+                    "rightValue": "error",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals",
+                      "name": "filter.operator.equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [
+        272,
+        144
+      ],
+      "id": "828152bf-9346-4ee1-a0c3-22a5e2f1311f",
+      "name": "Switch1"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "return {\n  json: {\n    text: $json.prompt,\n    context: $json.context,\n    agent: \"task\"\n  }\n};\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        480,
+        32
+      ],
+      "id": "5bad021c-35fe-44bb-87c2-6e56c5899673",
+      "name": "Code1"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "return {\n  json: {\n    status: $json.status,\n    task: $json.task\n  }\n};\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        496,
+        192
+      ],
+      "id": "0dc78b00-1866-4180-b760-87101bb6b7db",
+      "name": "Code2"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code": {
+      "main": [
+        [
+          {
+            "node": "Switch",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Switch": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "HTTP Request1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "HTTP Request2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request1": {
+      "main": [
+        [
+          {
+            "node": "Switch1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Switch1": {
+      "main": [
+        [
+          {
+            "node": "Code1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Code2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "a91b2ca1-0b0d-45fb-a860-5dab9c97d358",
+  "meta": {
+    "instanceId": "ea01ce13c5ebe9539ff9bb98ef3a0712fe50a43f1cb17623d943179b8b590023"
+  },
+  "id": "7BXeho3cC4GEkGJV",
+  "tags": []
+}

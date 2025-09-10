@@ -1,3 +1,4 @@
+# CalendarAgent\contact_resolver.py
 import win32com.client
 import pythoncom
 _cached_contacts = None

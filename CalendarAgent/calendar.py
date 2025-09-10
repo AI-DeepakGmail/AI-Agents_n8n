@@ -1,7 +1,6 @@
-from Shared.utils.time_parser import extract_datetime_details
+#CalendarAgent\calendar.py
+from .time_parser import extract_datetime_details
 from .calendar_api import create_event, log_event
-from .calendar_suggester import suggest_meeting_time
-from .meeting_suggester import suggest_meeting
 from .reminder import create_reminder_task  
 from datetime import timedelta, datetime
 from dateutil.parser import parse as parse_date
@@ -48,12 +47,6 @@ def parse_recurrence_duration(text: str, default_days: int = 30) -> int:
     return default_days
 
 def handle_calendar_command(text):
-    if "suggest" in text.lower():
-        def callback(response):
-            print("🧠 Suggestion:", response)
-            suggest_meeting(text, response)
-        return suggest_meeting_time(text, callback)
-
     details = extract_datetime_details(text)
     dt = details.get("datetime")
     if not dt:

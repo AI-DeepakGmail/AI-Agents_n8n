@@ -1,93 +1,163 @@
 [
     {
-        "name": "Reminder: With Deepak At",
+        "name": "Reminder: A With Tulsiram",
         "interval": 0,
-        "message": "\u23f0 Upcoming event: Reminder: With Deepak At at 05:45 PM",
+        "message": "\u23f0 Upcoming event: Reminder: A With Tulsiram at 10:40 AM",
         "repeat": false,
-        "next_run": 1756642500
+        "next_run": 1756876200
     },
     {
-        "name": "Reminder: With Deepak At",
+        "name": "Reminder: A With Tulsiram",
         "interval": 0,
-        "message": "\u23f0 Upcoming event: Reminder: With Deepak At at 05:45 PM",
+        "message": "\u23f0 Upcoming event: Reminder: A With Tulsiram at 10:40 PM",
         "repeat": false,
-        "next_run": 1756642500
+        "next_run": 1756919400
     },
     {
-        "name": "Reminder: With Deepak",
+        "name": "Reminder: A With Tulsiram Everyday",
         "interval": 0,
-        "message": "\u23f0 Upcoming event: Reminder: With Deepak at 05:45 PM",
+        "message": "\u23f0 Upcoming event: Reminder: A With Tulsiram Everyday at 10:40 PM",
         "repeat": false,
-        "next_run": 1756642500
+        "next_run": 1756919400
     },
     {
-        "name": "Reminder: With Deepak",
+        "name": "Reminder: A With Tulsiram Daily",
         "interval": 0,
-        "message": "\u23f0 Upcoming event: Reminder: With Deepak at 05:45 PM",
+        "message": "\u23f0 Upcoming event: Reminder: A With Tulsiram Daily at 10:40 PM",
         "repeat": false,
-        "next_run": 1756642500
+        "next_run": 1756919400
     },
     {
-        "name": "Reminder: With Kaushal",
+        "name": "Reminder: A With Tulsiram Daily Till Week",
         "interval": 0,
-        "message": "\u23f0 Upcoming event: Reminder: With Kaushal at 06:25 PM",
+        "message": "\u23f0 Upcoming event: Reminder: A With Tulsiram Daily Till Week at 10:40 PM",
         "repeat": false,
-        "next_run": 1756644900
+        "next_run": 1756919400
     },
     {
-        "name": "Reminder: With Deepak;kaushal",
+        "name": "Reminder: A With Tulsiram Week",
         "interval": 0,
-        "message": "\u23f0 Upcoming event: Reminder: With Deepak;kaushal at 07:25 PM",
+        "message": "\u23f0 Upcoming event: Reminder: A With Tulsiram Week at 10:40 PM",
         "repeat": false,
-        "next_run": 1756648500
+        "next_run": 1756919400
     },
     {
-        "name": "Reminder: With Deepak,kaushal",
+        "name": "Reminder: A With Tulsiram Home For Day",
         "interval": 0,
-        "message": "\u23f0 Upcoming event: Reminder: With Deepak,kaushal at 07:25 PM",
+        "message": "\u23f0 Upcoming event: Reminder: A With Tulsiram Home For Day at 10:40 PM",
         "repeat": false,
-        "next_run": 1756648500
+        "next_run": 1756919400
     },
     {
-        "name": "Reminder: With Deepak,kaushal",
+        "name": "Reminder: A With Tulsiram Home Every Day For Day",
         "interval": 0,
-        "message": "\u23f0 Upcoming event: Reminder: With Deepak,kaushal at 08:25 PM",
+        "message": "\u23f0 Upcoming event: Reminder: A With Tulsiram Home Every Day For Day at 10:40 PM",
         "repeat": false,
-        "next_run": 1756652100
+        "next_run": 1756919400
     },
     {
-        "name": "Reminder: With Deepak,kaushal",
+        "name": "Reminder: A With Tulsiram For Day",
         "interval": 0,
-        "message": "\u23f0 Upcoming event: Reminder: With Deepak,kaushal at 05:45 PM",
+        "message": "\u23f0 Upcoming event: Reminder: A With Tulsiram For Day at 10:40 PM",
         "repeat": false,
-        "next_run": 1756642500
+        "next_run": 1756919400
     },
     {
-        "name": "Reminder: With Kaushal,kaushal",
+        "name": "Reminder: A With Tulsiram For Day",
         "interval": 0,
-        "message": "\u23f0 Upcoming event: Reminder: With Kaushal,kaushal at 06:45 PM",
+        "message": "\u23f0 Upcoming event: Reminder: A With Tulsiram For Day at 10:40 PM",
         "repeat": false,
-        "next_run": 1756646100
+        "next_run": 1756919400
     },
     {
-        "name": "Reminder: With Deepak,kaushal",
+        "name": "Reminder: A With Tulsiram Every Day For Day",
         "interval": 0,
-        "message": "\u23f0 Upcoming event: Reminder: With Deepak,kaushal at 08:25 PM",
+        "message": "\u23f0 Upcoming event: Reminder: A With Tulsiram Every Day For Day at 10:40 PM",
         "repeat": false,
-        "next_run": 1756652100
+        "next_run": 1756919400
     },
     {
-        "name": "Reminder: A With Raj",
+        "name": "Reminder: A With Tulsiram Every Froday For Week",
         "interval": 0,
-        "message": "\u23f0 Upcoming event: Reminder: A With Raj at 09:45 AM",
+        "message": "\u23f0 Upcoming event: Reminder: A With Tulsiram Every Froday For Week at 10:40 PM",
         "repeat": false,
-        "next_run": 1756700100
+        "next_run": 1756919400
     },
     {
-        "name": "Reminder: A With Raj",
+        "name": "Reminder: A With Tulsiram Every Friday For Week",
         "interval": 0,
-        "message": "\u23f0 Upcoming event: Reminder: A With Raj at 09:45 AM",
+        "message": "\u23f0 Upcoming event: Reminder: A With Tulsiram Every Friday For Week at 10:40 PM",
         "repeat": false,
-        "next_run": 1756700100
+        "next_run": 1756919400
+    },
+    {
+        "name": "Reminder: A With Tulsiram Every Friday For Week",
+        "interval": 0,
+        "message": "\u23f0 Upcoming event: Reminder: A With Tulsiram Every Friday For Week at 10:40 PM",
+        "repeat": false,
+        "next_run": 1756919400
+    },
+    {
+        "name": "Reminder: Deepak Daily",
+        "interval": 0,
+        "message": "\u23f0 Upcoming event: Reminder: Deepak Daily at 08:45 AM",
+        "repeat": false,
+        "next_run": 1757128500
+    },
+    {
+        "name": "Reminder: Deepakkarma@gmail.com",
+        "interval": 0,
+        "message": "\u23f0 Upcoming event: Reminder: Deepakkarma@gmail.com at 08:45 AM",
+        "repeat": false,
+        "next_run": 1757128500
+    },
+    {
+        "name": "Reminder: With Neeraj",
+        "interval": 0,
+        "message": "\u23f0 Upcoming event: Reminder: With Neeraj at 10:20 AM",
+        "repeat": false,
+        "next_run": 1757220620
+    },
+    {
+        "name": "Reminder: With Neeraj",
+        "interval": 0,
+        "message": "\u23f0 Upcoming event: Reminder: With Neeraj at 10:27 AM",
+        "repeat": false,
+        "next_run": 1757221052
+    },
+    {
+        "name": "Reminder: With Neeraj",
+        "interval": 0,
+        "message": "\u23f0 Upcoming event: Reminder: With Neeraj at 02:45 PM",
+        "repeat": false,
+        "next_run": 1757236500
+    },
+    {
+        "name": "Reminder: With Neeraj",
+        "interval": 0,
+        "message": "\u23f0 Upcoming event: Reminder: With Neeraj at 03:45 PM",
+        "repeat": false,
+        "next_run": 1757240100
+    },
+    {
+        "name": "Reminder: With Neeraj",
+        "interval": 0,
+        "message": "\u23f0 Upcoming event: Reminder: With Neeraj at 03:45 PM",
+        "repeat": false,
+        "next_run": 1757240100
+    },
+    {
+        "name": "Reminder: With Neeraj Todat",
+        "interval": 0,
+        "message": "\u23f0 Upcoming event: Reminder: With Neeraj Todat at 05:45 PM",
+        "repeat": false,
+        "next_run": 1757247300
+    },
+    {
+        "name": "Reminder: With Neeraj",
+        "interval": 0,
+        "message": "\u23f0 Upcoming event: Reminder: With Neeraj at 07:45 PM",
+        "repeat": false,
+        "next_run": 1757254500
     }
 ]

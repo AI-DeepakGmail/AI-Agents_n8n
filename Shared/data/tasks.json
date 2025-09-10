@@ -1,1 +1,76 @@
-[{"name": "auto-task", "interval": 1800, "time_of_day": null, "message": "Remind me to drink water every 30 minutes", "repeat": true, "next_run": 1756655365.295397}, {"name": "auto-task", "interval": 1800, "time_of_day": null, "message": "add task to chk mail in every 30 minutes", "repeat": true, "next_run": 1756655444.0383852}, {"name": "auto-task", "interval": 1800, "time_of_day": null, "message": "add task to chk mail at 9pm today", "repeat": true, "next_run": 1756655495.0011885}]
+{
+  "deepak123": [
+    {
+      "name": "to drink water",
+      "interval": 7200,
+      "time_of_day": null,
+      "message": "Please drink water",
+      "repeat": true,
+      "next_run": 1756814985.9377174
+    },
+    {
+      "name": "to drink water1",
+      "interval": 7200,
+      "time_of_day": null,
+      "message": "Please drink water",
+      "repeat": true,
+      "next_run": 1756815095.7044432
+    },
+    {
+      "name": "to drink water1",
+      "interval": 7300,
+      "time_of_day": null,
+      "message": "Please drink water1",
+      "repeat": true,
+      "next_run": 1756815277.0087433
+    },
+    {
+      "name": "to drink water2",
+      "interval": 7300,
+      "time_of_day": null,
+      "message": "Please drink water1",
+      "repeat": true,
+      "next_run": 1756815303.6571689
+    },
+    {
+      "name": "to drink water2",
+      "interval": 7300,
+      "time_of_day": null,
+      "message": "Please drink water3",
+      "repeat": true,
+      "next_run": 1756815347.449978
+    },
+    {
+      "name": "to drink water5",
+      "interval": 7300,
+      "time_of_day": null,
+      "message": "Please drink water3",
+      "repeat": true,
+      "next_run": 1756816605.4649901
+    },
+    {
+      "name": "to drink water",
+      "interval": 7200,
+      "time_of_day": null,
+      "message": "Please drink water1",
+      "repeat": true,
+      "next_run": 1756892036.76096
+    },
+    {
+      "name": "to drink water5",
+      "interval": 7300,
+      "time_of_day": null,
+      "message": "Please drink water10",
+      "repeat": true,
+      "next_run": 1756902350.6679325
+    },
+    {
+      "name": "drink water",
+      "interval": 7200,
+      "time_of_day": null,
+      "message": "remind me to drink water every 2hr",
+      "repeat": true,
+      "next_run": 1756904342.1155927
+    }
+  ]
+}

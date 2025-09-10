@@ -1,28 +1,66 @@
-2025-08-31 12:16:35.344119 | Scheduled: With Tulsi at 2025-08-31 19:00:00 | Participants: ['Tulsi'] | Recurrence: None
-2025-08-31 12:16:35.500400 | Scheduled: With Tulsi at 2025-08-31 19:00:00 | Participants: ['Tulsi'] | Recurrence: None
-2025-08-31 17:38:06.522511 | Scheduled: With Deepak At at 2025-08-31 18:00:00 | Participants: ['Deepak'] | Recurrence: None
-2025-08-31 17:38:06.538138 | Scheduled: With Deepak At at 2025-08-31 18:00:00 | Participants: ['Deepak'] | Recurrence: None
-2025-08-31 17:38:41.304397 | Scheduled: With Deepak At at 2025-08-31 18:00:00 | Participants: ['ai.deepakkarma@gmail.com'] | Recurrence: None
-2025-08-31 17:38:41.320024 | Scheduled: With Deepak At at 2025-08-31 18:00:00 | Participants: ['ai.deepakkarma@gmail.com'] | Recurrence: None
-2025-08-31 17:42:14.879375 | Scheduled: With Deepak at 2025-08-31 18:00:00 | Participants: ['ai.deepakkarma@gmail.com'] | Recurrence: None
-2025-08-31 17:42:14.910652 | Scheduled: With Deepak at 2025-08-31 18:00:00 | Participants: ['ai.deepakkarma@gmail.com'] | Recurrence: None
-2025-08-31 17:46:33.139872 | Scheduled: With Deepak at 2025-08-31 18:00:00 | Participants: ['ai.deepakkarma@gmail.com'] | Recurrence: None
-2025-08-31 17:46:33.139872 | Scheduled: With Deepak at 2025-08-31 18:00:00 | Participants: ['ai.deepakkarma@gmail.com'] | Recurrence: None
-2025-08-31 17:48:24.855649 | Scheduled: With Kaushal at 2025-08-31 18:40:00 | Participants: ['kaushalkarma@gmail.com'] | Recurrence: None
-2025-08-31 17:48:24.878818 | Scheduled: With Kaushal at 2025-08-31 18:40:00 | Participants: ['kaushalkarma@gmail.com'] | Recurrence: None
-2025-08-31 17:48:54.865532 | Scheduled: With Deepak;kaushal at 2025-08-31 19:40:00 | Participants: None | Recurrence: None
-2025-08-31 17:48:54.877582 | Scheduled: With Deepak;kaushal at 2025-08-31 19:40:00 | Participants: None | Recurrence: None
-2025-08-31 17:49:11.669452 | Scheduled: With Deepak,kaushal at 2025-08-31 19:40:00 | Participants: ['ai.deepakkarma@gmail.com', 'kaushalkarma@gmail.com'] | Recurrence: None
-2025-08-31 17:49:11.685562 | Scheduled: With Deepak,kaushal at 2025-08-31 19:40:00 | Participants: ['ai.deepakkarma@gmail.com', 'kaushalkarma@gmail.com'] | Recurrence: None
-2025-08-31 17:50:59.079347 | Scheduled: With Deepak,kaushal at 2025-08-31 20:40:00 | Participants: ['ai.deepakkarma@gmail.com', 'kaushalkarma@gmail.com'] | Recurrence: None
-2025-08-31 17:50:59.079347 | Scheduled: With Deepak,kaushal at 2025-08-31 20:40:00 | Participants: ['ai.deepakkarma@gmail.com', 'kaushalkarma@gmail.com'] | Recurrence: None
-2025-08-31 17:52:14.850156 | Scheduled: With Deepak,kaushal at 2025-08-31 18:00:00 | Participants: ['ai.deepakkarma@gmail.com', 'kaushalkarma@outlook.com'] | Recurrence: None
-2025-08-31 17:52:14.992206 | Scheduled: With Deepak,kaushal at 2025-08-31 18:00:00 | Participants: ['ai.deepakkarma@gmail.com', 'kaushalkarma@outlook.com'] | Recurrence: None
-2025-08-31 17:53:00.955774 | Scheduled: With Kaushal,kaushal at 2025-08-31 19:00:00 | Participants: ['kaushalkarma@outlook.com', 'kaushalkarma@outlook.com'] | Recurrence: None
-2025-08-31 17:53:01.024870 | Scheduled: With Kaushal,kaushal at 2025-08-31 19:00:00 | Participants: ['kaushalkarma@outlook.com', 'kaushalkarma@outlook.com'] | Recurrence: None
-2025-08-31 17:54:46.534946 | Scheduled: With Deepak,kaushal at 2025-08-31 20:40:00 | Participants: ['ai.deepakkarma@gmail.com', 'kaushalkarma@outlook.com'] | Recurrence: None
-2025-08-31 17:54:46.554992 | Scheduled: With Deepak,kaushal at 2025-08-31 20:40:00 | Participants: ['ai.deepakkarma@gmail.com', 'kaushalkarma@outlook.com'] | Recurrence: None
-2025-08-31 20:42:03.772196 | Scheduled: A With Raj at 2025-09-01 10:00:00 | Participants: ['Raj'] | Recurrence: None
-2025-08-31 20:42:03.818793 | Scheduled: A With Raj at 2025-09-01 10:00:00 | Participants: ['Raj'] | Recurrence: None
-2025-08-31 20:42:40.858458 | Scheduled: A With Raj at 2025-09-01 10:00:00 | Participants: ['Raj'] | Recurrence: None
-2025-08-31 20:42:40.870460 | Scheduled: A With Raj at 2025-09-01 10:00:00 | Participants: ['Raj'] | Recurrence: None
+2025-09-03 14:08:09.773148 | Scheduled: A With Tulsiram at 2025-09-03 17:45:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 14:08:09.779571 | Scheduled: A With Tulsiram at 2025-09-03 17:45:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 14:09:24.659108 | Scheduled: A With Tulsiram at 2025-09-03 10:55:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 14:09:24.684050 | Scheduled: A With Tulsiram at 2025-09-03 10:55:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 14:13:41.855779 | Scheduled: A With Tulsiram at 2025-09-03 10:55:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 14:13:41.904090 | Scheduled: A With Tulsiram at 2025-09-03 10:55:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 14:14:23.721155 | Scheduled: A With Tulsiram at 2025-09-03 10:55:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 14:14:23.751943 | Scheduled: A With Tulsiram at 2025-09-03 10:55:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 14:14:58.082523 | Scheduled: A With Tulsiram at 2025-09-03 17:45:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 14:14:58.107184 | Scheduled: A With Tulsiram at 2025-09-03 17:45:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 14:46:37.521327 | Scheduled: A With Tulsiram at 2025-09-03 17:45:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 14:46:37.537400 | Scheduled: A With Tulsiram at 2025-09-03 17:45:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 14:47:09.090193 | Scheduled: A With Tulsiram at 2025-09-03 17:45:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 14:47:09.115128 | Scheduled: A With Tulsiram at 2025-09-03 17:45:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 15:53:15.321323 | Scheduled: A With Tulsiram at 2025-09-03 17:45:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 15:53:15.492133 | Scheduled: A With Tulsiram at 2025-09-03 17:45:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 15:55:26.817339 | Scheduled: A With Tulsiram at 2025-09-03 17:45:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 15:55:27.220139 | Scheduled: A With Tulsiram at 2025-09-03 17:45:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 16:24:58.635664 | Scheduled: A With Tulsiram at 2025-09-03 17:45:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 16:24:58.679629 | Scheduled: A With Tulsiram at 2025-09-03 17:45:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 17:51:21.707678 | Scheduled: A With Tulsiram at 2025-09-03 10:55:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 17:51:21.709854 | Scheduled: A With Tulsiram at 2025-09-03 10:55:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 17:51:56.964331 | Scheduled: A With Tulsiram at 2025-09-03 22:55:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 17:51:57.004695 | Scheduled: A With Tulsiram at 2025-09-03 22:55:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 17:52:07.657886 | Scheduled: A With Tulsiram Everyday at 2025-09-03 22:55:00 | Participants: ['Tulsiram Everyday'] | Recurrence: None
+2025-09-03 17:52:07.712184 | Scheduled: A With Tulsiram Everyday at 2025-09-03 22:55:00 | Participants: ['Tulsiram Everyday'] | Recurrence: None
+2025-09-03 17:52:36.400515 | Scheduled: A With Tulsiram Daily at 2025-09-03 22:55:00 | Participants: ['Tulsiram Daily'] | Recurrence: {'type': 0, 'interval': 1, 'duration_days': 30}
+2025-09-03 17:52:36.436202 | Scheduled: A With Tulsiram Daily at 2025-09-03 22:55:00 | Participants: ['Tulsiram Daily'] | Recurrence: {'type': 0, 'interval': 1, 'duration_days': 30}
+2025-09-03 17:53:06.458736 | Scheduled: A With Tulsiram Daily Till Week at 2025-09-03 22:55:00 | Participants: ['Tulsiram Daily'] | Recurrence: {'type': 0, 'interval': 1, 'duration_days': 30}
+2025-09-03 17:53:06.475053 | Scheduled: A With Tulsiram Daily Till Week at 2025-09-03 22:55:00 | Participants: ['Tulsiram Daily'] | Recurrence: {'type': 0, 'interval': 1, 'duration_days': 30}
+2025-09-03 17:53:43.308972 | Scheduled: A With Tulsiram Week at 2025-09-03 22:55:00 | Participants: ['Tulsiram 2Week'] | Recurrence: None
+2025-09-03 17:53:43.320507 | Scheduled: A With Tulsiram Week at 2025-09-03 22:55:00 | Participants: ['Tulsiram 2Week'] | Recurrence: None
+2025-09-03 17:56:10.250136 | Scheduled: A With Tulsiram Home For Day at 2025-09-03 22:55:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 17:56:10.268896 | Scheduled: A With Tulsiram Home For Day at 2025-09-03 22:55:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 18:00:11.688513 | Scheduled: A With Tulsiram Home Every Day For Day at 2025-09-03 22:55:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: {'type': 0, 'interval': 1, 'duration_days': 3}
+2025-09-03 18:00:11.786896 | Scheduled: A With Tulsiram Home Every Day For Day at 2025-09-03 22:55:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: {'type': 0, 'interval': 1, 'duration_days': 3}
+2025-09-03 18:00:39.706815 | Scheduled: A With Tulsiram For Day at 2025-09-03 22:55:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 18:00:39.741621 | Scheduled: A With Tulsiram For Day at 2025-09-03 22:55:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 18:00:49.435290 | Scheduled: A With Tulsiram For Day at 2025-09-03 22:55:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 18:00:49.458385 | Scheduled: A With Tulsiram For Day at 2025-09-03 22:55:00 | Participants: ['tulsiram.vishwakarma@mponline.gov.in'] | Recurrence: None
+2025-09-03 18:01:04.425647 | Scheduled: A With Tulsiram Every Day For Day at 2025-09-03 22:55:00 | Participants: ['Tulsiram Every Day'] | Recurrence: {'type': 0, 'interval': 1, 'duration_days': 3}
+2025-09-03 18:01:04.449971 | Scheduled: A With Tulsiram Every Day For Day at 2025-09-03 22:55:00 | Participants: ['Tulsiram Every Day'] | Recurrence: {'type': 0, 'interval': 1, 'duration_days': 3}
+2025-09-03 18:01:33.824975 | Scheduled: A With Tulsiram Every Froday For Week at 2025-09-03 22:55:00 | Participants: ['Tulsiram Every Froday'] | Recurrence: None
+2025-09-03 18:01:33.848612 | Scheduled: A With Tulsiram Every Froday For Week at 2025-09-03 22:55:00 | Participants: ['Tulsiram Every Froday'] | Recurrence: None
+2025-09-03 18:01:45.031424 | Scheduled: A With Tulsiram Every Friday For Week at 2025-09-03 22:55:00 | Participants: ['Tulsiram Every Friday'] | Recurrence: {'type': 1, 'interval': 1, 'day_mask': 32, 'duration_days': 21}
+2025-09-03 18:01:45.056673 | Scheduled: A With Tulsiram Every Friday For Week at 2025-09-03 22:55:00 | Participants: ['Tulsiram Every Friday'] | Recurrence: {'type': 1, 'interval': 1, 'day_mask': 32, 'duration_days': 21}
+2025-09-03 18:01:58.279420 | Scheduled: A With Tulsiram Every Friday For Week at 2025-09-03 22:55:00 | Participants: ['Tulsiram Every Friday'] | Recurrence: {'type': 1, 'interval': 1, 'day_mask': 32, 'duration_days': 21}
+2025-09-03 18:01:58.329574 | Scheduled: A With Tulsiram Every Friday For Week at 2025-09-03 22:55:00 | Participants: ['Tulsiram Every Friday'] | Recurrence: {'type': 1, 'interval': 1, 'day_mask': 32, 'duration_days': 21}
+2025-09-05 13:30:34.035052 | Scheduled: Deepak Daily at 2025-09-06 09:00:00 | Participants: None | Recurrence: {'type': 0, 'interval': 1, 'duration_days': 30}
+2025-09-05 13:30:34.071190 | Scheduled: Deepak Daily at 2025-09-06 09:00:00 | Participants: None | Recurrence: {'type': 0, 'interval': 1, 'duration_days': 30}
+2025-09-05 13:31:56.580616 | Scheduled: Deepakkarma@gmail.com at 2025-09-06 09:00:00 | Participants: None | Recurrence: None
+2025-09-05 13:31:56.708607 | Scheduled: Deepakkarma@gmail.com at 2025-09-06 09:00:00 | Participants: None | Recurrence: None
+2025-09-07 10:35:26.738281 | Scheduled: With Neeraj at 2025-09-07 10:35:20.675163 | Participants: ['Neeraj'] | Recurrence: None
+2025-09-07 10:35:26.753907 | Scheduled: With Neeraj at 2025-09-07 10:35:20.675163 | Participants: ['Neeraj'] | Recurrence: None
+2025-09-07 10:42:33.489982 | Scheduled: With Neeraj at 2025-09-07 10:42:32.044925 | Participants: ['Neeraj'] | Recurrence: None
+2025-09-07 10:42:33.556984 | Scheduled: With Neeraj at 2025-09-07 10:42:32.044925 | Participants: ['Neeraj'] | Recurrence: None
+2025-09-07 10:56:03.431451 | Scheduled: With Neeraj at 2025-09-07 15:00:00 | Participants: ['Neeraj'] | Recurrence: None
+2025-09-07 10:56:03.447076 | Scheduled: With Neeraj at 2025-09-07 15:00:00 | Participants: ['Neeraj'] | Recurrence: None
+2025-09-07 10:57:18.360456 | Scheduled: With Neeraj at 2025-09-07 16:00:00 | Participants: ['Neeraj'] | Recurrence: None
+2025-09-07 10:57:18.360456 | Scheduled: With Neeraj at 2025-09-07 16:00:00 | Participants: ['Neeraj'] | Recurrence: None
+2025-09-07 10:58:02.335859 | Scheduled: With Neeraj at 2025-09-07 16:00:00 | Participants: ['Neeraj'] | Recurrence: None
+2025-09-07 10:58:02.351487 | Scheduled: With Neeraj at 2025-09-07 16:00:00 | Participants: ['Neeraj'] | Recurrence: None
+2025-09-07 10:58:56.526380 | Scheduled: With Neeraj Todat at 2025-09-07 18:00:00 | Participants: ['Neeraj Todat 6Pm'] | Recurrence: None
+2025-09-07 10:58:56.529378 | Scheduled: With Neeraj Todat at 2025-09-07 18:00:00 | Participants: ['Neeraj Todat 6Pm'] | Recurrence: None
+2025-09-07 11:26:24.116423 | Scheduled: With Neeraj at 2025-09-07 20:00:00 | Participants: ['Neeraj'] | Recurrence: None
+2025-09-07 11:26:24.163296 | Scheduled: With Neeraj at 2025-09-07 20:00:00 | Participants: ['Neeraj'] | Recurrence: None
